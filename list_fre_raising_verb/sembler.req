@@ -1,4 +1,0 @@
-pattern {
-		* -[comp:aux@tense | root]-> G;
-		G [lemma="sembler"]
-}

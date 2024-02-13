@@ -1,8 +1,0 @@
-pattern {
-    G [lemma="venir"];
-    * -[comp:aux@tense | root]-> G;
-		D [lemma="de"];
-		G < D;
-    D -[comp:obj]-> V;
-    V [upos="VERB"]
-    }

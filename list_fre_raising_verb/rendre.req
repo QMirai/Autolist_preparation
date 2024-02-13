@@ -1,5 +1,0 @@
-pattern {
-    G [lemma="rendre"];
-    * -[comp:aux@tense | root]-> G;
-    G -[comp:pred]-> D
-    }

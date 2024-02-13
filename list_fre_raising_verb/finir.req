@@ -1,4 +1,0 @@
-pattern {
-    G [lemma="finir"];
-    * -[comp:aux@tense | root]-> G;
-    }
