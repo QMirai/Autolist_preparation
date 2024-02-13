@@ -1,0 +1,6 @@
+pattern {
+    G [lemma="aimer"];
+    * -[comp:aux@tense | root]-> G;
+		G -[comp:obj]-> D;
+		D [VerbForm="Inf"]
+    }

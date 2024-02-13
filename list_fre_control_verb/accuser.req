@@ -1,0 +1,9 @@
+pattern {
+		* -[comp:aux@tense | root]-> G;
+    G [lemma="accuser"];
+		* -[comp:aux@tense | root ]-> G;
+		G -[comp:obl]-> D;
+		D [upos="ADP"];
+    D -[comp:obj]-> V;
+    V [VerbForm="Inf"]
+    }

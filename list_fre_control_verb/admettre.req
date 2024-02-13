@@ -1,0 +1,6 @@
+pattern {
+		* -[comp:aux@tense | root]-> G;
+    G [lemma="admettre"];
+		G -[comp:obj]-> D;
+    D [VerbForm="Inf"]
+    }

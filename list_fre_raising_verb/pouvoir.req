@@ -1,0 +1,5 @@
+pattern {
+		* -[comp:aux@tense | root]-> G;
+    G [lemma="pouvoir"];
+    R -[root]-> G
+    }

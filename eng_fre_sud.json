@@ -1,0 +1,212 @@
+{
+	"corpora": [
+		{
+			"id": "SUD_English-Atis",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_English-Atis",
+			"files": [
+				"en_atis-sud-dev.conllu",
+				"en_atis-sud-test.conllu",
+				"en_atis-sud-train.conllu"
+			]
+		},
+		{
+			"id": "SUD_English-ESLSpok",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_English-ESLSpok",
+			"files": [
+				"en_eslspok-sud-dev.conllu",
+				"en_eslspok-sud-test.conllu",
+				"en_eslspok-sud-train.conllu"
+			]
+		},
+		{
+			"id": "SUD_English-EWT",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_English-EWT",
+			"files": [
+				"en_ewt-sud-dev.conllu",
+				"en_ewt-sud-test.conllu",
+				"en_ewt-sud-train.conllu"
+			]
+		},
+		{
+			"id": "SUD_English-GENTLE",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_English-GENTLE",
+			"files": [
+				"en_gentle-sud-test.conllu"
+			]
+		},
+		{
+			"id": "SUD_English-GUM",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_English-GUM",
+			"files": [
+				"en_gum-sud-dev.conllu",
+				"en_gum-sud-test.conllu",
+				"en_gum-sud-train.conllu"
+			]
+		},
+		{
+			"id": "SUD_English-GUMReddit",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_English-GUMReddit",
+			"files": [
+				"en_gumreddit-sud-dev.conllu",
+				"en_gumreddit-sud-test.conllu",
+				"en_gumreddit-sud-train.conllu"
+			]
+		},
+		{
+			"id": "SUD_English-LinES",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_English-LinES",
+			"files": [
+				"en_lines-sud-dev.conllu",
+				"en_lines-sud-test.conllu",
+				"en_lines-sud-train.conllu"
+			]
+		},
+		{
+			"id": "SUD_English-ParTUT",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_English-ParTUT",
+			"files": [
+				"en_partut-sud-dev.conllu",
+				"en_partut-sud-test.conllu",
+				"en_partut-sud-train.conllu"
+			]
+		},
+		{
+			"id": "SUD_English-Pronouns",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_English-Pronouns",
+			"files": [
+				"en_pronouns-sud-test.conllu"
+			]
+		},
+		{
+			"id": "SUD_English-PUD",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_English-PUD",
+			"files": [
+				"en_pud-sud-test.conllu"
+			]
+		},
+		{
+			"id": "SUD_French-FQB",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_French-FQB",
+			"files": [
+				"fr_fqb-sud-test.conllu"
+			]
+		},
+		{
+			"id": "SUD_French-GSD",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_French-GSD",
+			"files": [
+				"fr_gsd-sud-dev.conllu",
+				"fr_gsd-sud-test.conllu",
+				"fr_gsd-sud-train.conllu"
+			]
+		},
+		{
+			"id": "SUD_French-ParisStories",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_French-ParisStories",
+			"files": [
+				"ParisStories_2019_concoursEquitation.conllu",
+				"ParisStories_2019_cuisineApproximative.conllu",
+				"ParisStories_2019_devoirPhilosophie.conllu",
+				"ParisStories_2019_experienceFac.conllu",
+				"ParisStories_2019_histoireDeBanlieue.conllu",
+				"ParisStories_2019_journeeTournage.conllu",
+				"ParisStories_2019_mauriceAventure.conllu",
+				"ParisStories_2019_mercrediSoir.conllu",
+				"ParisStories_2019_patisserieFine.conllu",
+				"ParisStories_2019_peripitiesVoiture.conllu",
+				"ParisStories_2019_peripleCrous.conllu",
+				"ParisStories_2019_prepaScientifique.conllu",
+				"ParisStories_2019_stagePrimaire.conllu",
+				"ParisStories_2019_vacancesEte.conllu",
+				"ParisStories_2019_voyageEcosse.conllu",
+				"ParisStories_2019_voyageItalie.conllu",
+				"ParisStories_2020_aideAuxEnfants.conllu",
+				"ParisStories_2020_alarmeTrain.conllu",
+				"ParisStories_2020_anecdoteMetro.conllu",
+				"ParisStories_2020_blessureRecreation.conllu",
+				"ParisStories_2020_campBedouin.conllu",
+				"ParisStories_2020_concoursInstagram.conllu",
+				"ParisStories_2020_descenteCanoe.conllu",
+				"ParisStories_2020_dragQueen.conllu",
+				"ParisStories_2020_galereNice.conllu",
+				"ParisStories_2020_histoireHorreur.conllu",
+				"ParisStories_2020_histoireOurs.conllu",
+				"ParisStories_2020_maisonAbondonnee.conllu",
+				"ParisStories_2020_poissonsNoel.conllu",
+				"ParisStories_2020_requinReunion.conllu",
+				"ParisStories_2020_sangDEncre.conllu",
+				"ParisStories_2020_sortiesAdolescence.conllu",
+				"ParisStories_2021_adoptionMouts.conllu",
+				"ParisStories_2021_couruLaVoir.conllu",
+				"ParisStories_2021_discussionSansAbris.conllu",
+				"ParisStories_2021_loulouLeChat.conllu",
+				"ParisStories_2021_maintenantJeSais.conllu",
+				"ParisStories_2021_neesLeMemeMois.conllu",
+				"ParisStories_2021_nouveauxEleves.conllu",
+				"ParisStories_2021_nouvelleCollegue.conllu",
+				"ParisStories_2021_pireSoireeHorrible.conllu",
+				"ParisStories_2021_pluieEtMamie.conllu",
+				"ParisStories_2021_prenomDeVieille.conllu",
+				"ParisStories_2021_rencontreAngelaMerkel.conllu",
+				"ParisStories_2021_rencontreMourinho.conllu",
+				"ParisStories_2021_soireeHalloweenGrange.conllu",
+				"ParisStories_2022_anniversairePetitChat.conllu",
+				"ParisStories_2022_chienGourmand.conllu",
+				"ParisStories_2022_cocktailsEtCrepes.conllu",
+				"ParisStories_2022_contenteDeOuf.conllu",
+				"ParisStories_2022_copineEnCarton.conllu",
+				"ParisStories_2022_demiSoeurMartiniquaise.conllu",
+				"ParisStories_2022_frereHyperDifferent.conllu",
+				"ParisStories_2022_generationsXY.conllu",
+				"ParisStories_2022_giteEnMontagne.conllu",
+				"ParisStories_2022_hamacTahiti.conllu",
+				"ParisStories_2022_lesParentsInconnus.conllu",
+				"ParisStories_2022_manifSorbRock.conllu",
+				"ParisStories_2022_mocheMaisMignonne.conllu",
+				"ParisStories_2022_onEnParleAPersonne.conllu",
+				"ParisStories_2022_pesteDeMaternelle.conllu",
+				"ParisStories_2022_petitDuCentre.conllu",
+				"ParisStories_2022_rateauAuTravail.conllu",
+				"ParisStories_2022_rencontreALiege.conllu",
+				"ParisStories_2022_rencontreSolfege.conllu",
+				"ParisStories_2022_tetedeNeuneu.conllu"
+			]
+		},
+		{
+			"id": "SUD_French-ParTUT",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_French-ParTUT",
+			"files": [
+				"fr_partut-sud-dev.conllu",
+				"fr_partut-sud-test.conllu",
+				"fr_partut-sud-train.conllu"
+			]
+		},
+		{
+			"id": "SUD_French-PUD",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_French-PUD",
+			"files": [
+				"fr_pud-sud-test.conllu"
+			]
+		},
+		{
+			"id": "SUD_French-Rhapsodie",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_French-Rhapsodie",
+			"files": [
+				"fr_rhapsodie.sud.dev.conllu",
+				"fr_rhapsodie.sud.test.conllu",
+				"fr_rhapsodie.sud.train.conllu"
+			]
+		},
+		{
+			"id": "SUD_French-Sequoia",
+			"directory": "/mnt/hgfs/share/sud-treebanks-v2.12/SUD_French-Sequoia",
+			"files": [
+				"annodis.er.conllu",
+				"emea-fr-dev.conllu",
+				"emea-fr-test.conllu",
+				"Europar.550.conllu",
+				"frwiki_50.1000.conllu"
+			]
+		}
+	]
+}

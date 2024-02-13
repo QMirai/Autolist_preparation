@@ -1,0 +1,6 @@
+pattern {
+    G [lemma="refuser"];
+    * -[comp:aux@tense | root]-> G;
+		G -[comp:obj]-> D;
+		D [upos="ADP"];
+    }

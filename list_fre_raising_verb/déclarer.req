@@ -1,0 +1,8 @@
+pattern {
+		* -[comp:aux@tense | root]-> G;
+    G [lemma="déclarer"];
+    G -[comp:pred]-> D
+    }
+without {
+    G [Voice="Pass"]
+    }
