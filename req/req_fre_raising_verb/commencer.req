@@ -1,0 +1,4 @@
+pattern {
+    G [lemma="commencer"];
+    * -[comp:aux@tense | root]-> G;
+    }

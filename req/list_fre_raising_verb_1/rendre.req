@@ -1,0 +1,5 @@
+pattern {
+    G [lemma="rendre"];
+    R -[root]-> G;
+    G -[comp:pred]-> D
+    }

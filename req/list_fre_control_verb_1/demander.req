@@ -1,0 +1,6 @@
+pattern {
+    G [lemma="demander"];
+    R -[root]-> G;
+		G -[comp:obj]-> D;
+		D [upos="ADP"];
+    }

@@ -1,0 +1,5 @@
+pattern {
+    G [lemma="trouver"];
+    R -[root]-> G;
+    G -[comp:pred]-> D
+    }

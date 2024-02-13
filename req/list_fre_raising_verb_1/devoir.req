@@ -1,0 +1,6 @@
+pattern {
+    G [lemma="devoir"];
+    R -[root]-> G;
+    G -[comp:obj]-> D;
+		D [upos="VERB"]
+    }

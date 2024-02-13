@@ -1,0 +1,4 @@
+pattern {
+    G [lemma="paraître"];
+    R -[root]-> G;
+    }

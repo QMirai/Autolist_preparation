@@ -1,0 +1,8 @@
+pattern {
+    G [lemma="contribuer"];
+    R -[root]-> G;
+		G -[comp:obl]-> D;
+		D [upos="ADP"];
+    D -[comp:obj]-> V;
+    V [VerbForm="Inf"]
+    }

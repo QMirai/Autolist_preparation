@@ -1,0 +1,4 @@
+pattern {
+    G [lemma="finir"];
+    R -[root]-> G;
+    }

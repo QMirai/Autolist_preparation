@@ -1,0 +1,6 @@
+pattern {
+    G [lemma="adorer"];
+    R -[root]-> G;
+		G -[comp:obj]-> D;
+		D [VerbForm="Inf"]
+    }

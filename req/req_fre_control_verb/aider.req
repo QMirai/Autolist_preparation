@@ -1,0 +1,6 @@
+pattern {
+    G [lemma="aider"];
+    * -[comp:aux@tense | root]-> G;
+		G -[comp:obl]-> D;
+		D [upos="ADP"]
+    }

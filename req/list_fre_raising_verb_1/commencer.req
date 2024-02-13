@@ -1,0 +1,4 @@
+pattern {
+    G [lemma="commencer"];
+    R -[root]-> G;
+    }
