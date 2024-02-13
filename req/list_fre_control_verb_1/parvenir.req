@@ -1,6 +1,0 @@
-pattern {
-    G [lemma="parvenir"];
-    R -[root]-> G;
-		G -[comp:obl]-> D;
-		D [upos="ADP"];
-    }

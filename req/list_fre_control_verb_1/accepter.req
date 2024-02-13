@@ -1,6 +1,0 @@
-pattern {
-		* -[comp:aux@tense | root]-> G;
-		G [lemma="accepter"];
-		G -[comp:obj]-> D;
-		D [upos="ADP"]
-    }

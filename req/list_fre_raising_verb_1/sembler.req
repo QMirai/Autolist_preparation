@@ -1,4 +1,0 @@
-pattern {
-		R -[root]-> G;
-		G [lemma="sembler"]
-}

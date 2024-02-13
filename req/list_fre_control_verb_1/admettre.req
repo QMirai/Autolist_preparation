@@ -1,5 +1,0 @@
-pattern {
-    G [lemma="admettre"];
-		G -[comp:obj]-> D;
-    D [VerbForm="Inf"]
-    }

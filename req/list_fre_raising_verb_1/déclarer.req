@@ -1,8 +1,0 @@
-pattern {
-		R -[root]-> G;
-    G [lemma="déclarer"];
-    G -[comp:pred]-> D
-    }
-without {
-    G [Voice="Pass"]
-    }

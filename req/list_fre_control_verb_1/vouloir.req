@@ -1,6 +1,0 @@
-pattern {
-    G [lemma="vouloir"];
-    R -[root]-> G;
-		G -[comp:obj]-> D;
-		D [VerbForm="Inf"]
-    }

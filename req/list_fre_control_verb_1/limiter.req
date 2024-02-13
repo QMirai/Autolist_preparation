@@ -1,7 +1,0 @@
-pattern {
-    G [lemma="limiter"];
-		G -[comp:obl]-> D;
-		D [upos="ADP"];
-    D -[comp:obj]-> V;
-    V [VerbForm="Inf"]
-    }

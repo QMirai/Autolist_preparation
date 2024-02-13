@@ -1,6 +1,0 @@
-pattern {
-    G [lemma="autoriser"];
-    G -[comp:obl]-> D;
-    D [upos="ADP"]
-    }
-without { G [Voice="Pass"] }

@@ -1,4 +1,0 @@
-pattern {
-    G [lemma="conserver"];
-    G -[comp:pred]-> D
-    }

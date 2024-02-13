@@ -1,9 +1,0 @@
-pattern {
-    G [lemma="tenir"];
-    R -[root]-> G;
-		D [lemma="à"];
-    G < D;
-    G -[comp:obl]-> D;
-    D -[comp:obj]-> V;
-    V [VerbForm="Inf"]
-    }

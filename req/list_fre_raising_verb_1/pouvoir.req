@@ -1,4 +1,0 @@
-pattern {
-    G [lemma="pouvoir"];
-    R -[root]-> G
-    }

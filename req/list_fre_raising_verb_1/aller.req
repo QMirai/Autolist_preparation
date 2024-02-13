@@ -1,6 +1,0 @@
-pattern {
-		R -[root]-> G;
-    G [lemma="aller"];
-    G -[comp:obj]-> D;
-    D [VerbForm="Inf"]
-}
