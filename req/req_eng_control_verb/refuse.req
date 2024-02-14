@@ -1,0 +1,6 @@
+pattern {
+    * -[comp:aux | root | cc]-> G;
+    G [lemma="refuse"];
+    G -[comp:obl]-> D;
+    D [upos="PART"]
+    }

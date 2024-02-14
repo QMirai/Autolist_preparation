@@ -1,0 +1,9 @@
+pattern {
+    * -[comp:aux | root | cc]-> G;
+    G [lemma="take"];
+    G [upos=VERB];
+    D [lemma="occasion"];
+    E [lemma="to"];
+    G < D;
+    D < E
+    }

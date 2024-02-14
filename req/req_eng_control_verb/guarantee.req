@@ -1,0 +1,6 @@
+pattern {
+    * -[comp:aux | root | cc | conj]-> G;
+    G [lemma="guarantee"];
+    G -[comp:obl]-> D;
+    D [upos="PART"]
+    }

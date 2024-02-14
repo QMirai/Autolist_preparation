@@ -1,0 +1,6 @@
+pattern {
+    * -[comp:aux | root | cc]-> G;
+    G [lemma="plan"];
+    G -[comp:obl | mod]-> D;
+    D [upos=PART | SCONJ]
+    }
