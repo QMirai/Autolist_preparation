@@ -1,0 +1,4 @@
+pattern {
+    * -[comp:aux | root | cc]-> G;
+    G [lemma="seem"]
+    }

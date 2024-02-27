@@ -1,0 +1,6 @@
+pattern {
+    G [lemma="end"];
+    * -[comp:aux | root | cc]-> G;
+		D [lemma="up"];
+		G < D
+    }

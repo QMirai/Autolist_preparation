@@ -1,0 +1,8 @@
+pattern {
+    * -[comp:aux | root | cc]-> G;
+    G [lemma="go"];
+		D [lemma="to"];
+		G < D;
+		S [upos="VERB"];
+		D < S
+    }

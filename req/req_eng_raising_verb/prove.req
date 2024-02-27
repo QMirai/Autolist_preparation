@@ -1,0 +1,6 @@
+pattern {
+    * -[comp:aux | root | cc]-> G;
+    G [lemma="prove"];
+		G -[comp:pred | comp:obl]-> D;
+		D [upos="ADJ" | "PART"]
+    }

@@ -1,0 +1,6 @@
+pattern {
+    % * -[comp:aux | root | cc]-> G;
+    G [lemma="use"];
+		D [lemma="to"];
+		G -[comp:obl]-> D
+    }

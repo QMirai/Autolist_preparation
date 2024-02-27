@@ -1,0 +1,4 @@
+pattern {
+    G [lemma="stain"];
+		G -[comp:pred]-> D
+    }

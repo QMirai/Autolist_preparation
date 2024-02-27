@@ -1,0 +1,6 @@
+pattern {
+    * -[comp:aux | root | cc]-> G;
+    G [lemma="make"];
+    G -[comp:obl | comp:pred]-> D;
+    D [upos="VERB" | "ADJ"]
+    }

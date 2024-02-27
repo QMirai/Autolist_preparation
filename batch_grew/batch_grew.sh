@@ -7,7 +7,7 @@ do
 	lang="eng"
 	input_dir="/mnt/hgfs/share/req/req_${lang}_${type}"
 	echo "\n-----$type-----"
-	output_dir="/mnt/hgfs/share/grew_output/grew_output_${input_dir##*/${lang}_"
+	output_dir="/mnt/hgfs/share/grew_output/grew_output_${input_dir##*/req_}"
 	mkdir -p "$output_dir"
 
 	for file in "$input_dir"/*.req

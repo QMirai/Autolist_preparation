@@ -1,0 +1,4 @@
+pattern {
+    G [lemma="take"];
+		G -[comp:pred]-> D
+    }

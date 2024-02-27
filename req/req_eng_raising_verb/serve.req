@@ -1,0 +1,5 @@
+pattern {
+    G [lemma="serve"];
+		G -[comp:pred | comp:obl | udep]-> D;
+		D [upos="ADJ" | "PART" | "ADP"]
+    }

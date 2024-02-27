@@ -1,0 +1,6 @@
+pattern {
+    * -[comp:aux | root | cc]-> G;
+    G [lemma="keep"];
+		D [upos="VERB"];
+		G -[comp:obj | comp:pred]-> D
+    }
