@@ -1,0 +1,9 @@
+pattern {
+    * -[comp:aux | root | cc]-> G;
+    G [lemma="like"];
+    G [upos="VERB"];
+    D [lemma="to"];
+    G < D;
+		S [upos="VERB"];
+	  D -[comp:obj ]-> S
+    }

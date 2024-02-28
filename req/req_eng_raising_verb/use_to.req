@@ -1,5 +1,5 @@
 pattern {
-    % * -[comp:aux | root | cc]-> G;
+    * -[^comp:aux@pass]-> G;
     G [lemma="use"];
 		D [lemma="to"];
 		G -[comp:obl]-> D

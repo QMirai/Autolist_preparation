@@ -1,5 +1,6 @@
 pattern {
+    * -[comp:aux | root | cc]-> G;
     G [lemma="serve"];
-		G -[comp:pred | comp:obl | udep]-> D;
-		D [upos="ADJ" | "PART" | "ADP"]
+		G -[comp:pred | udep]-> D;
+		D [upos="ADJ" | "ADP"]
     }
