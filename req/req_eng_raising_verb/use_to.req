@@ -2,5 +2,6 @@ pattern {
     * -[^comp:aux@pass]-> G;
     G [lemma="use"];
 		D [lemma="to"];
-		G -[comp:obl]-> D
+		G -[comp:obl]-> D;
+		G < D
     }
