@@ -1,5 +1,6 @@
 pattern {
-		* -[comp:aux@tense | root]-> G;
     G [lemma="conserver"];
-    G -[comp:pred]-> D
+    G -[comp:pred]-> D;
+    D [upos="ADJ"];
+    G << D
     }
