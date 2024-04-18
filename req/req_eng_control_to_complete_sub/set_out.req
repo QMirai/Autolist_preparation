@@ -1,0 +1,7 @@
+pattern {
+    G [lemma="set"];
+		C [lemma="out"];
+		G < C;
+    G -[comp:obl | comp:obj]-> D;
+    D [upos=PART | VERB]
+    }

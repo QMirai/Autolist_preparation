@@ -1,6 +1,6 @@
 pattern {
     * -[comp:aux | root | cc]-> G;
     G [lemma="let"];
-    G -> D;
-    D [upos="VERB"]
+    G -[comp:obl | comp:obj]-> D;
+    D [upos=PART | VERB]
     }

@@ -1,0 +1,8 @@
+pattern {
+    G [lemma="take"];
+    G [upos=VERB];
+    D [lemma="out"];
+    E [lemma="to"];
+    G < D;
+    D < E
+    }

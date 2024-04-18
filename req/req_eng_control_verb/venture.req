@@ -1,6 +1,5 @@
 pattern {
-    * -[comp:aux | root | cc]-> G;
     G [lemma="venture"];
-    G -[comp:obl]-> D;
-    D [upos="PART"]
+    G -[comp:obl | comp:obj]-> D;
+    D [upos=PART | VERB]
     }

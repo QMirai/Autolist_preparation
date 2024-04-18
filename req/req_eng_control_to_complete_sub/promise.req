@@ -1,0 +1,5 @@
+pattern {
+    G [lemma="promise"];
+    G -[comp:obl | comp:obj]-> D;
+    D [upos=PART | VERB]
+    }

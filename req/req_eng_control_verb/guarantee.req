@@ -1,6 +1,6 @@
 pattern {
-    * -[comp:aux | root | cc | conj]-> G; % Only one sentence found, the core verb in the subordinate clause.
+    * -[comp:aux | root | cc | conj]-> G;
     G [lemma="guarantee"];
-    G -[comp:obl]-> D;
-    D [upos="PART"]
+    G -[comp:obl | comp:obj]-> D;
+    D [upos=PART | VERB]
     }

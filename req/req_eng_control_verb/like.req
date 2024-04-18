@@ -1,7 +1,6 @@
 pattern {
     * -[comp:aux | root | cc]-> G;
     G [lemma="like"];
-		G [upos="VERB"];
-		D [upos="VERB"];
-	  G -[comp:obj ]-> D
+    G -[comp:obl | comp:obj]-> D;
+    D [upos=PART | VERB]
     }

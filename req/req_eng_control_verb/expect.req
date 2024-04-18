@@ -1,6 +1,6 @@
 pattern {
     * -[comp:aux | root | cc]-> G;
     G [lemma="expect"];
-    G -[comp:obl]-> D;
-    D [upos="PART"]
+    G -[comp:obl | comp:obj]-> D;
+    D [upos=PART | VERB]
     }
