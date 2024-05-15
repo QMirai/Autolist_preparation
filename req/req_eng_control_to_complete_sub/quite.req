@@ -1,5 +1,0 @@
-pattern {
-    G [lemma="quite"];
-    G -[comp:obl | comp:obj]-> D;
-    D [upos=PART | VERB]
-    }

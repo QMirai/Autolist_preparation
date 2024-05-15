@@ -1,5 +1,0 @@
-pattern {
-    G [lemma="propose"];
-    G -[comp:obl | comp:obj]-> D;
-    D [upos=PART | VERB]
-    }

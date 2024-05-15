@@ -1,5 +1,0 @@
-pattern {
-    G [lemma="impel"];
-    G -[comp:obl | comp:obj]-> D;
-    D [upos=PART | VERB]
-    }

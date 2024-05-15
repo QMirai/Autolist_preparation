@@ -1,5 +1,0 @@
-pattern {
-    G [lemma="leave"];
-    G -[comp:obl | comp:obj]-> D;
-    D [upos=PART | VERB]
-    }
