@@ -1,8 +1,7 @@
 pattern {
-		* -[comp:aux@tense | root]-> G;
-    G [lemma="déclarer"];
-    G -[comp:pred]-> D
-    }
-without {
-    G [Voice="Pass"]
-    }
+        G [lemma="déclarer"];
+        * -[comp:aux@tense | root]-> G;
+        G -[comp:pred]-> D;
+        D [upos="ADJ"];
+        G << D
+        }

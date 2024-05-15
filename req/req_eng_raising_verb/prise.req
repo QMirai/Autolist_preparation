@@ -1,4 +1,0 @@
-pattern {
-    G [lemma="prise"];
-		G -[comp:pred]-> D
-    }

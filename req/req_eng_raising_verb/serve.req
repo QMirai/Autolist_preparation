@@ -1,6 +1,0 @@
-pattern {
-    * -[comp:aux | root | cc]-> G;
-    G [lemma="serve"];
-		G -[comp:pred | udep]-> D;
-		D [upos="ADJ" | "ADP"]
-    }

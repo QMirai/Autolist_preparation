@@ -1,4 +1,4 @@
 pattern {
-		* -[comp:aux@tense | root]-> G;
-		G [lemma="sembler"]
-}
+        G [lemma="sembler"];
+        * -[comp:aux@tense | root]-> G
+        }

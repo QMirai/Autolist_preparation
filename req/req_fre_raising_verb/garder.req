@@ -1,0 +1,7 @@
+pattern {
+        G [lemma="garder"];
+        * -[comp:aux@tense | root]-> G;
+        G -[comp:pred]-> D;
+        D [upos="ADJ"];
+        G << D
+        }

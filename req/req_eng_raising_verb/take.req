@@ -1,5 +1,0 @@
-pattern {
-    * -[^comp:aux@pass]-> G;
-    G [lemma="take"];
-		G -[comp:pred]-> D
-    }

@@ -1,0 +1,8 @@
+pattern {
+    G [lemma="éviter"];
+    * -> G;
+    G -[comp:obl | comp:obj]-> D;
+    D [upos="ADP"];
+    D -> V;
+    V [upos="VERB"]
+    }

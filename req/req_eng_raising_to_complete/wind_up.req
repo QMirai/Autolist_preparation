@@ -1,5 +1,0 @@
-pattern {
-    G [lemma="wind"];
-		C [lemma="up"];
-		G < C
-    }

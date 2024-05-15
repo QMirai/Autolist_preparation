@@ -1,8 +1,8 @@
 pattern {
     G [lemma="contribuer"];
-    * -[comp:aux@tense | root]-> G;
-		G -[comp:obl]-> D;
-		D [upos="ADP"];
-    D -[comp:obj]-> V;
-    V [VerbForm="Inf"]
+    * -[comp:aux@tense | root | cc]-> G;
+    G -[comp:obl | comp:obj]-> D;
+    D [upos="ADP"];
+    D -> V;
+    V [upos="VERB"]
     }

@@ -1,0 +1,4 @@
+pattern {
+        G [lemma="échouer"];
+        * -[comp:aux@tense | root]-> G
+        }

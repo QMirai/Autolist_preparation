@@ -1,0 +1,6 @@
+pattern {
+    G [lemma="nier"];
+    * -[comp:aux@tense | root | cc]-> G;
+    G -[comp:obj]-> D;
+    D [upos="VERB"]
+    }

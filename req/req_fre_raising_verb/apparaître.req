@@ -1,0 +1,4 @@
+pattern {
+        G [lemma="apparaître"];
+        * -[comp:aux@tense | root]-> G
+        }

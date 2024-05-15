@@ -1,5 +1,7 @@
 pattern {
-    G [lemma="trouver"];
-    * -[comp:aux@tense | root]-> G;
-    G -[comp:pred]-> D
-    }
+        G [lemma="trouver"];
+        * -[comp:aux@tense | root]-> G;
+        G -[comp:pred]-> D;
+        D [upos="ADJ"];
+        G << D
+        }
